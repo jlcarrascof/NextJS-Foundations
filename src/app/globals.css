@@ -1,0 +1,19 @@
+:root {
+  --primary: #4e56ff;
+  --secondary: #48d359;
+  --text-primary: #2c3a57;
+  --text-secondary: #4f5f82;
+  --shadow: rgba(0, 0, 0, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
