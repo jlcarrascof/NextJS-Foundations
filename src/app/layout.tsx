@@ -19,8 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header>
-          <h1>
-            TreinaBlog
+          <h1 className={styles.title}>
+            Treina
+            <span className={styles.titleSecondWord}>Blog</span>
           </h1>
         </header>
         {children}
