@@ -1,5 +1,9 @@
 :root {
-
+  --primary: #4e56ff;
+  --secondary: #48d359;
+  --text-primary: #2c3a57;
+  --text-secondary: #4f5f82;
+  --shadow: rgba(0, 0, 0, 0.12);
 }
 
 * {
