@@ -1,5 +1,5 @@
 export default function Page({ params }: { params: { slug: string } }) {
     return (
-        <div>My post: {params.slug}</div>
+        <h1>{params.slug}</h1>
     );
 }
