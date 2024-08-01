@@ -1,7 +1,8 @@
-import Link from "next/link";
+import useIndex from "@/data/hooks/pages/useIndex.page";
 
 export default function Home() {
+  const { posts } = useIndex();
   return (
-    <Link href={"/products"}>Go to Products...</Link>
+
   );
 }
