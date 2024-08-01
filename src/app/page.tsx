@@ -5,6 +5,11 @@ export default function Home() {
   return (
     <>
       <h1>Lista de Posts</h1>
+      {
+        list.map((post) => {
+          return <p>{post}</p>
+        })
+      }
     </>
   );
 }
